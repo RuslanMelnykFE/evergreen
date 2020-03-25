@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+button,
+input,
+select {
+    cursor: pointer;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container {
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
